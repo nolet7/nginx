@@ -15,3 +15,4 @@ http://<any-node-ip>:30080
 ```
 # Trigger build
 # trigger
+# Trigger ArgoCD
