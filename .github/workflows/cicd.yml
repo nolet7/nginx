@@ -48,7 +48,7 @@ jobs:
 
       - name: Sync Argo CD App
         run: |
-          argocd app sync ${{ env.ARGOCD_APP_NAME }} --prune --self-heal
+          argocd app sync ${{ env.ARGOCD_APP_NAME }} --prune
 
       - name: Wait for App to be Healthy
         run: |
